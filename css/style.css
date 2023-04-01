@@ -1,0 +1,239 @@
+*{margin: 0; padding: 0;}
+
+header,main,footer,nav,aside,section{
+    display: block;
+}
+
+header{
+    background-color: #F2E9E9;
+    height: 123px;
+    width: 1440px;
+}
+
+a{
+    width: 1400px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 18px;
+}
+
+nav{
+    font-family: Amiko;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+a.dotselected{
+
+    background-color: #F72828;
+    border-radius: 10px;
+    height: 14px;
+    width: 14px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.navcontainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 575px;
+    top: 52px;
+}
+
+footer{
+    background-color: #000000;
+    height: 41px;
+    position: relative;
+    top: 25px;
+    width: 1440px;
+}
+
+.mixtitle{
+    font-family: Amiko; 
+    font-size: 72px;
+    font-weight: 700px;
+    height: 97px;
+    position: absolute;
+    top: 267px;
+    left: 244px;
+}
+.mixline{
+    font-family: Amiko; 
+    font-size: 24px;
+    font-weight: 700px;
+    height: 33px;
+    position: absolute;
+    left:244px;
+    top: 354px;
+}
+
+.smallblock{
+    background-color: #EBEF18;
+    width: 28px;
+    height: 55px;
+    margin-top: 11px;
+}
+
+.longblock{
+    background-color: #EBEF18;
+    width: 28px;
+    height: 198px;
+    margin-top: 11px;
+}
+
+
+
+.topleftblock{
+    background-color: #EBEF18;
+    width: 75px;
+    height: 23px;
+}
+
+.biggertopleftblock{
+    background-color: #EBEF18;
+    width: 136px;
+    height: 46px;
+    margin-top: 8px;
+}
+
+.longestblock{
+    background-color: #EBEF18;
+    width: 134px;
+    height: 404px; 
+    margin-top: 11px;
+}
+
+.smallestblocks{
+    background-color: #EBEF18;
+    width: 25px;
+    height: 26px; 
+    margin-top: 7px;
+    
+}
+
+.bottomleft{
+    background-color: #EBEF18;
+    width: 88px;
+    height: 28px;  
+    margin-top: 11px;
+}
+
+.smallblockcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 57px;
+}
+
+.leftsection{
+    position: absolute;
+    top: 258px;
+    left: 688px;   
+}
+
+.biggestblock{
+    background-color: #EBEF18;
+    width: 264px;
+    height: 352px;
+    position: absolute;
+    left: 837px;
+    top: 258px;  
+}
+
+.rightcoloum{
+    position: relative;
+    left: 1111px;
+    top: 80px;
+}
+
+.bigbottomblock{
+    background-color: #EBEF18;
+    width: 123px;
+    height: 212px;
+    position: relative;
+    left: 837px;
+    top: 92px;
+}
+
+.bottomstandingblock{
+    background-color: #EBEF18;
+    width: 55px;
+    height: 105px;
+}
+
+.bottomcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 105px;
+    justify-content: space-between;
+    position: relative;
+    left: 974px;
+    bottom: 120px;
+}
+
+.bottomlayingblock{
+    background-color: #EBEF18;
+    width: 110px;
+    height: 58px;
+    position: relative;
+    left: 974px;
+    bottom: 113px;
+}
+
+aside{
+    width: 169px;
+    height: 1900px;
+    background-color: #EBEF18;
+    position: absolute;
+    left: 1271px;
+    /* float: right; */
+}
+
+.myname{
+    font-family: Amiko;
+    font-size: 96px;
+    font-weight: 400px;
+    height: 641px;
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25px;
+    top:1240px;
+}
+
+.grayblock{
+    width: 457px;
+    height: 299px;
+    background-color: #C4C4C4;
+    margin-top: 70px;
+}
+
+.graycontainerL{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 151px;
+    top:50px;
+    margin-top: 119px;
+}
+
+.graycontainerR{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 663px;
+    top: 200px;
+}
+
+
