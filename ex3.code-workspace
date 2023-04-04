@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ex2"
+		},
+		{
+			"path": "../../practices/4thpractice"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ex3"
+	}
+}
