@@ -75,7 +75,7 @@ footer.longscreen{
     position: fixed;
     top: 1240px;
     width: 1440px; 
-    z-index: 1;
+    z-index: 2;
 }
 
 div.underfooter{
@@ -84,6 +84,7 @@ div.underfooter{
     height: 500px;
     position: fixed;
     top:1281px;
+    z-index: 2;
 }
 
 .mixtitle{
@@ -359,7 +360,7 @@ aside.right3layout{
     aside.thickaside{
         width:1440px;
         height: 463px;
-        background-color: #EBEF18;
+        background-color: #6f0000;
         position: relative;
         top: 1346px;
     }
