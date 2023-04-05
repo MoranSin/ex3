@@ -27,18 +27,23 @@ ul{
     list-style-type: none;
 }
 
+.dotabove{
+    position: relative;
+}
 
-
-a.dotselected{
+.dotselected{
 
     background-color: #F72828;
-    border-radius: 10px;
+    border-radius: 50%;
     height: 14px;
     width: 14px;
+    position: absolute;
+    bottom:35px;
+    right: 15px;
 }
 
 a:hover{
-    text-decoration:underline;
+    font-weight: bolder;
 }
 
 .navcontainer{
@@ -69,8 +74,17 @@ footer.longscreen{
     background-color: #000000;
     height: 41px;
     position: fixed;
-    top: 1350px;
+    top: 1240px;
     width: 1440px; 
+    z-index: 1;
+}
+
+div.underfooter{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 500px;
+    position: fixed;
+    top:1281px;
 }
 
 .mixtitle{
@@ -209,7 +223,7 @@ footer.longscreen{
 aside.longaside{
     width: 169px;
     height: 1900px;
-    background-color: #EBEF18;
+    background-color: #6f0000;
     position: absolute;
     left: 1271px;
 }
@@ -217,7 +231,7 @@ aside.longaside{
 aside.thickaside{
     width:1440px;
     height: 463px;
-    background-color: #EBEF18;
+    background-color: #6f0000;
 }
 
 .myname{
@@ -302,20 +316,21 @@ aside.grayaside{
 aside.right3layout{
     width: 104px;
     height: 995px;
-    background-color: #1847EF4D;
+    background-color: #b30000;
     opacity: 30%;
     position: absolute;
     left: 1336px;
 }
 
 #wrapper{
+    width: 1400px;
     margin: 0px auto;
 }
 
 @media only screen and (max-width:840px){
 
     #wrapper{
-        width: 100%;
+        width: 1400px;
         margin: 0px auto;
     }
     aside.right3layout{
