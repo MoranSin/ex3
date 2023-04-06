@@ -10,6 +10,7 @@ header{
     width: 1440px;
 }
 
+
 a{
     text-decoration: none;
     color: #000000;
@@ -324,7 +325,7 @@ aside.right3layout{
     margin: 0px auto;
 }
 
-@media only screen and (max-width:840px){
+@media only screen and (max-width:400px){
 
     #wrapper{
         width: 1400px;
