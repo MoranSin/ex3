@@ -74,7 +74,7 @@ footer.longscreen{
     background-color: #000000;
     height: 41px;
     position: fixed;
-    top: 1400px;
+    bottom: 0px;
     width: 1440px; 
     z-index: 2;
 }
