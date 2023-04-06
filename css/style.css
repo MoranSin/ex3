@@ -339,7 +339,7 @@ aside.right3layout{
     margin: 0px auto;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:480px){
 
     #wrapper{
         width: 1400px;
