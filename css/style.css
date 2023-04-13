@@ -347,7 +347,7 @@ aside.right3layout{
 
     aside.grayaside{
         height: 105px;
-        width:1440px ;
+        width:100%;
         position: relative;
     }
 
@@ -369,7 +369,7 @@ aside.right3layout{
     }
 
     aside.thickaside{
-        width:1440px;
+        width:100%;
         height: 463px;
         background-color: #6f0000;
         position: relative;
@@ -381,7 +381,7 @@ aside.right3layout{
         height: 41px;
         position: relative;
         top: 1320px;
-        width: 1440px;
+        width: 100%;
     
     }
 }
