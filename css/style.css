@@ -294,9 +294,9 @@ aside.thickaside{
     width: 80px;
     height: 80px;
     background-color: #000000;
-    position: relative;
+    position: absolute;
     top: 21px;
-    left: 1336px;
+    right: 24px;
 }
 
 .whitecube{
@@ -331,16 +331,16 @@ aside.right3layout{
     background-color: #b30000;
     opacity: 30%;
     position: absolute;
-    left: 1336px;
+    right: 0px;
 }
 
 #wrapper{
-    width: 100%;
+    width: 1440px;
     margin: 0px auto;
 }
 
-@media only screen and (max-width:768px){
-    
+@media only screen and (max-width:480px){
+
     aside.right3layout{
         display: none;
     }
