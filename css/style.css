@@ -335,16 +335,12 @@ aside.right3layout{
 }
 
 #wrapper{
-    width: 1400px;
+    width: 100%;
     margin: 0px auto;
 }
 
-@media only screen and (max-width:480px){
-
-    #wrapper{
-        width: 1400px;
-        margin: 0px auto;
-    }
+@media only screen and (max-width:768px){
+    
     aside.right3layout{
         display: none;
     }
