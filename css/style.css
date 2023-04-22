@@ -356,6 +356,15 @@ aside.right3layout{
     flex-wrap: wrap;
 }
 
+.letterstyle{
+    color: #FFFFFF;
+    font-family: Amiko;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 300%;
+
+}
+
 
 @media only screen and (max-width:480px){
 
