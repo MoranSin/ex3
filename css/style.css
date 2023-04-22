@@ -351,6 +351,8 @@ aside.right3layout{
 }
 
 .card{
+    width: 100%;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -419,6 +421,26 @@ aside.right3layout{
         position: relative;
         top: 1320px;
         width: 840px;
+    
+    }
+
+    .gameboard{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: space-between;
+        width: 840px;
+        height: 995px;
+        left: 0px;
+        top: 150px;
+    }
+
+    .letterstyle{
+        color: #FFFFFF;
+        font-family: Amiko;
+        font-weight: 400px;
+        text-align: center;
+        font-size: 300%;
     
     }
 }
