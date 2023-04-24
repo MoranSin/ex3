@@ -330,7 +330,7 @@ aside.right3layout{
     height: 995px;
     background-color: #b30000;
     opacity: 30%;
-    position: absolute;
+    float: right;
     right: 0px;
 }
 
