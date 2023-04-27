@@ -351,10 +351,8 @@ aside.right3layout{
 }
 
 .card{
-    width: 100%;
     margin: 0px auto;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -381,12 +379,17 @@ button{
     font-size: 15px;
 }
 
+div#wrapper{
+    /* width: 1400px; */
+    margin:auto;
+}
+
 
 @media only screen and (max-width:480px){
 
     #wrapper{
         width: 480px;
-        margin: 0px auto;
+        margin: auto;
     }
 
     header{
@@ -441,8 +444,7 @@ button{
     .gameboard{
         position: relative;
         width: 840px;
-        height: 995px;
-        left: 0px;
+        left: -55px;
         top: 150px;
     }
 

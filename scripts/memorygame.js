@@ -106,6 +106,24 @@ for(let i = assLetters.length -1; i>0; i--){
         i++;
     })
 } 
+
+    const minSpacing = 5;
+    const maxSpacing = 132;
+    let viewportWidth = window.innerWidth;
+    let spacingRange = maxSpacing - minSpacing;
+    let spaceInc = spacingRange / viewportWidth;
+    let spacing = minSpacing + (spaceInc * viewportWidth);
+    
+    document.querySelectorAll("#Card div").forEach(function(div){
+        div.style.marginLeft = `${spacing}px`;
+    })
+
+
+
+
+
+
+
         
         
         
