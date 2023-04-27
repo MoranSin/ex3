@@ -367,6 +367,20 @@ aside.right3layout{
 
 }
 
+button{
+    display: none;
+    width: 100px;
+    height: 50px;
+    font-family: Amiko;
+    border: 0px;
+    color:#FFFFFF;
+    background-color: #6f0000;
+    position: relative;
+    left: 900px;
+    top: 40px;
+    font-size: 15px;
+}
+
 
 @media only screen and (max-width:480px){
 
@@ -425,10 +439,7 @@ aside.right3layout{
     }
 
     .gameboard{
-        display: flex;
-        flex-direction: row;
         position: relative;
-        justify-content: space-between;
         width: 840px;
         height: 995px;
         left: 0px;
