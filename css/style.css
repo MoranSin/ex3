@@ -380,7 +380,7 @@ button{
 }
 
 div#wrapper{
-    /* width: 1400px; */
+
     margin:auto;
 }
 
@@ -388,7 +388,6 @@ div#wrapper{
 @media only screen and (max-width:480px){
 
     #wrapper{
-        /* width: 480px; */
         margin: auto;
     }
 
